@@ -1,0 +1,10 @@
+Example command on an existing file123
+
+./getopt.out file123 "Today is a very nice day" --> message is appended into the file
+./getopt.out file123 Today is a very nice day --> same as previous line - appended into the file
+./getopt.out file123 -c "My name is Alextop30" --> message will overwrite everything in the file
+
+
+The -c option can be specified at any place in the command line arguments!
+
+If the file does not exist, it will be automatically created by the program!
